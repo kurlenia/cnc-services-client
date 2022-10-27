@@ -1,7 +1,16 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import MainContainer from '../components/MainContainer'
 
+export default function Home() {
+  return (
+    <>
+      <MainContainer keywords='Main page' title="Главная страница">
+        <h1>Главная страница</h1>
+      </MainContainer>
+    </>
+  )
+}
+
+/*
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -69,3 +78,4 @@ export default function Home() {
     </div>
   )
 }
+*/
